@@ -69,6 +69,8 @@ developing-aiot/
 │   └── sketch.ino               # C++ Arduino on-device firmware for ESP32
 ├── main.py                      # Main simulation entrypoint
 ├── train_model.py               # Complete training, evaluation, and quantization script
+├── build_demo_video.py          # Automated 720p demo video generator with neural TTS
+├── aiot_demo_video.mp4          # Final 3m44s HD presentation video (H.264 / AAC)
 ├── REPORT.md                    # Formal Academic Course Project Report
 ├── SOLUTIONS.md                 # Theoretical Study Guide & Chapter Solutions
 ├── requirements.txt
@@ -120,6 +122,18 @@ python -m unittest discover tests -v
 
 The complete academic written report is available at:
 * 📄 [**REPORT.md**](REPORT.md)
+
+---
+
+## 🎥 Demonstration Video (Chapter 3: Demo)
+
+The complete audio-visual demonstration addressing all course rubric criteria (sensing pipeline, Nyquist theorem, TinyML INT8 quantization, Pareto frontier, Wokwi simulation, and MQTT communication):
+* **File:** [`aiot_demo_video.mp4`](aiot_demo_video.mp4) (Directly included in repository)
+* **Duration:** 3 minutes 44 seconds (223.9 s) — *Strictly complies with the 3–5 min requirement*
+* **Resolution:** 1280 x 720 (720p HD, 16:9 widescreen)
+* **Codecs:** H.264 video @ 30 fps, AAC audio @ 192 kbps
+* **File Size:** ~3.73 MB (< 500 MB limit)
+* **Voiceover:** Spanish neural narration (`es-CO-GonzaloNeural`)
 
 ---
 
