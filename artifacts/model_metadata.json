@@ -1,0 +1,10 @@
+{
+  "author": "Sergio Andr\u00e9s Ipuz Saavedra",
+  "course": "Developing the Artificial Intelligence of Things (CSM13111)",
+  "university": "University of Helsinki",
+  "architecture": "MLP (14 -> 8 -> 1)",
+  "quantization": "Symmetric INT8 Post-Training Quantization",
+  "test_accuracy": 100.0,
+  "flash_bytes": 120,
+  "sram_bytes": 22
+}
